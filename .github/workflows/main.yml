@@ -16,6 +16,6 @@ jobs:
         with:
           project_name: AIZ-Testing/IPSRA-app
           cx_tenant: assurant
-          base_uri: us.ast.checkmarx.net 
+          base_uri: https://us.ast.checkmarx.net 
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
